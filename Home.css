@@ -1,0 +1,285 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Rufina:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Roboto+Slab:wght@100..900&family=Rufina:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body{
+	background-color: #ffffff;
+}
+
+.pages{
+	width: 100%;
+	/* height: 100%; */
+	padding: 60px 120px;
+}
+
+/* LANDING PAGE */
+.top{
+	/* padding: 50px 120px; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.top-left{
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.top-right{
+	align-items: center;
+	display: flex;
+	flex: row;
+	gap: 100px;
+}
+
+.top-right-left{
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+}
+
+.navigate{
+	font-size: 18px;
+}
+
+button{
+	font-size: 18px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	width: 100px;
+	margin: 0 10px;
+	border-style: solid;
+	border-width: 2px;
+	background-color: #ffffff;
+}
+
+.BOTTOM{
+	/* padding: 10px 120px; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px
+}
+
+.bot-left{
+	min-width: 300px;
+	flex-shrink: 0;
+}
+.headerline{
+	font-size: 70px;
+	font-family: "Rufina", serif;
+}
+
+.belowline{
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.btn-explore{
+	margin: 0;
+	margin-top: 30px;
+	background-color: black;
+	color: white;
+	width: 180px;
+	font-size: 18px;
+}
+
+.img-landing-page{
+	object-fit: cover;
+	margin-top: 50px;
+	width: 650px;
+	height: 500px;
+	border-radius: 65px 0px 65px 30px;
+}
+
+/* BEST SELLING PAGE */
+.best-selling{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title-best-selling{	
+	font-weight: 600;
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+
+.detial-best-selling{
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.best-selling-product{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: space-between;
+	padding: 50px 0;
+}
+
+.product-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+
+.img-shoe{
+	width: 400px;
+	padding-bottom: 40px;
+	object-fit: cover;
+}
+
+.product-name{
+	font-weight: bold;
+}
+
+.product-price{
+	color: rgb(77, 77, 77);
+	font-size: 13px;
+}
+
+.btn-see-all{
+	font-size: 15px;
+	font-weight: 500;
+	width: 150px;
+	padding: 10 30px;
+}
+
+/* PRODUCT PAGE */
+.product-page{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.title-product-page{
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.navi-page-container{
+	width: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navi-product{
+	align-items: center;
+	font-size: 14px;
+	margin-top: 30px;
+	font-weight: 500;
+}
+
+.product-list{
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 70px;
+}
+
+.product{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.img-shoe-list{
+	width: 300px;
+	height: 330px;
+	padding-bottom: 25px;
+	object-fit: contain;
+	flex: 1;
+}
+
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.promotion-page{
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	background-color: #eeeeee;
+	display: flex;
+	flex-direction: row;
+	height: 600px;
+}
+
+.left-promo{
+	flex: 1;
+}
+
+.image-promo{
+	width: 100%;
+	height: 100%;
+  object-fit: cover;
+}
+
+.right-promo{
+	padding-left: 100px;
+	flex: 2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.promo-title{
+	font-family: "Roboto Slab", serif;
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.promo-detail{
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.timer-container{
+	display: flex;
+	gap: 40px;
+}
+
+.timer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 90px;
+	height: 90px;
+	font-size: 25px;
+	font-weight: 550;
+	background-color: #ffffff;
+}
+
+.timer-identity{
+	font-size: 12px;
+}
+
+.btn-buy-now{
+	width: 140px;
+	margin-left: 0;
+	margin-top: 40px;
+	color: #ffffff;
+	background-color: black;
+	border-radius: 4px;
+}
+
